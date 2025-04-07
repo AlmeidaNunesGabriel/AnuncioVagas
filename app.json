@@ -19,10 +19,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.almeidagabrielnunes.AnunciosVagas"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fc8e15ae-cc0d-4888-9f61-ad94944fb8ae"
+      }
+    },
+    "owner": "almeidagabrielnunes",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/fc8e15ae-cc0d-4888-9f61-ad94944fb8ae"
     }
   }
 }
