@@ -1,7 +1,7 @@
 import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native'; 
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import { createStackNavigator } from '@react-navigation/stack';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from "./src/screens/home";
 import Vagas from './src/screens/vagas';
 import Estagio from './src/screens/vagasEstagio';
@@ -9,7 +9,7 @@ import AnuncioDetalhes from './src/screens/anuncioDetalhes';
 import VagaDetalhes from './src/screens/vagaDetalhes';
 
 const Drawer = createDrawerNavigator();
-const Stack = createStackNavigator();
+const Stack = createNativeStackNavigator();
 
 // Stack para Home e Detalhes do Anúncio
 function HomeStack() {
