@@ -5,6 +5,7 @@ const styles = StyleSheet.create({
   container: {
     marginTop: 50,
     paddingHorizontal: 10,
+    flex: 1,
   },
   title: {
     fontSize: 24,
@@ -18,7 +19,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     borderRadius: 10,
     padding: 15,
-    marginBottom: 20, // Corrigido aqui (antes era marginBotton)
+    marginBottom: 15,
     borderWidth: 1,
     borderColor: '#ccc',
     shadowColor: '#000',
@@ -26,16 +27,33 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.2,
     shadowRadius: 3,
     elevation: 5,
-  },
-  texto: {
-    fontSize: 16,
-    marginBottom: 8,
+    alignItems: 'center',
   },
   nomeVaga: {
-    fontSize: 16,
+    fontSize: 18,
     fontWeight: 'bold',
-    marginBottom: 10,
+    marginBottom: 8,
     textAlign: 'center',
+    color: '#333',
+  },
+  salario: {
+    fontSize: 16,
+    marginBottom: 15,
+    color: 'red',
+    fontWeight: '600',
+  },
+  button: {
+    backgroundColor: 'red',
+    paddingHorizontal: 25,
+    paddingVertical: 10,
+    borderRadius: 8,
+    alignItems: 'center',
+    minWidth: 120,
+  },
+  buttonText: {
+    color: 'white',
+    fontSize: 14,
+    fontWeight: 'bold',
   },
 });
 
